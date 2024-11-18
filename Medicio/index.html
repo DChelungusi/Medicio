@@ -56,25 +56,22 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#departments">Departments</a></li>
-            <li><a href="#doctors">Doctors</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <a class="cta-btn" href="index.html#appointment">Make an Appointment</a>
-
-      </div>
+        
+        <a class="cta-btn" href="appointment.html">Make an Appointment</a>
+</div>        
 
     </div>
 
-</header>
-
-
+</header
   <main class="main">
 
     <!-- Hero Section -->
@@ -409,65 +406,6 @@
 
 </section><!-- /Services Section -->
 
-<!-- Appointment Section -->
-<section id="appointment" class="appointment section light-background">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>MAKE AN APPOINTMENT</h2>
-    <p>Book your appointment quickly and easily through our platform.</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-      <div class="row">
-        <div class="col-md-4 form-group">
-          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-        </div>
-        <div class="col-md-4 form-group mt-3 mt-md-0">
-          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-        </div>
-        <div class="col-md-4 form-group mt-3 mt-md-0">
-          <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 form-group mt-3">
-          <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required="">
-        </div>
-        <div class="col-md-4 form-group mt-3">
-          <select name="department" id="department" class="form-select" required="">
-            <option value="">Select Department</option>
-            <option value="Department 1">Department 1</option>
-            <option value="Department 2">Department 2</option>
-            <option value="Department 3">Department 3</option>
-          </select>
-        </div>
-        <div class="col-md-4 form-group mt-3">
-          <select name="doctor" id="doctor" class="form-select" required="">
-            <option value="">Select Doctor</option>
-            <option value="Doctor 1">Doctor 1</option>
-            <option value="Doctor 2">Doctor 2</option>
-            <option value="Doctor 3">Doctor 3</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-group mt-3">
-        <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-      </div>
-      <div class="mt-3">
-        <div class="loading">Loading</div>
-        <div class="error-message"></div>
-        <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-        <div class="text-center"><button type="submit">Make an Appointment</button></div>
-      </div>
-    </form>
-
-  </div>
-
-</section><!-- /Appointment Section -->
 
 <!-- Tabs Section -->
 <section id="departments" class="tabs section">
@@ -569,119 +507,6 @@
   </div>
 
 </section><!-- /Tabs Section/dpartments -->
-
-
-   <!-- Testimonials Section -->
-<section id="testimonials" class="testimonials section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Testimonials</h2>
-    <p>These are the experiences shared by our clients.</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 600,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": "auto",
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "breakpoints": {
-            "320": {
-              "slidesPerView": 1,
-              "spaceBetween": 40
-            },
-            "1200": {
-              "slidesPerView": 3,
-              "spaceBetween": 20
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-                <span>The front-end team has been amazing! They have consistently delivered top-notch solutions that have exceeded our expectations. Their attention to detail and commitment to quality make them stand out.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>CEO &amp; Founder</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>I was impressed by the professionalism and expertise of the team. They handled our project efficiently and effectively, ensuring we met our deadlines without compromising on quality.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Their innovative approach and ability to adapt to our needs were instrumental in the success of our project. They truly understood our vision and brought it to life.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>Working with them was a great experience. Their responsiveness and willingness to collaborate made the entire process smooth and enjoyable.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <p>
-              <i class="bi bi-quote quote-icon-left"></i>
-              <span>I can’t recommend their services highly enough. They brought creativity and technical expertise to our project, resulting in a final product that exceeded our expectations.</span>
-              <i class="bi bi-quote quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-          </div>
-        </div><!-- End testimonial item -->
-
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-
-  </div>
-
-</section><!-- /Testimonials Section -->
 <!-- Doctors Section -->
 <section id="doctors" class="doctors section light-background">
 
@@ -722,6 +547,7 @@
               <a href=""><i class="bi bi-facebook"></i></a>
               <a href=""><i class="bi bi-instagram"></i></a>
               <a href=""><i class="bi bi-linkedin"></i></a>
+              
             </div>
           </div>
           <div class="member-info">
@@ -995,89 +821,6 @@
 
 </section><!-- /Faq Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Answers to your questions, or reach out for more information about our services.</p>
-      </div><!-- End Section Title -->
-          <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 370px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 ">
-            <div class="row gy-4">
-
-              <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
   </main>
 
   <footer id="footer" class="footer light-background">
@@ -1119,7 +862,7 @@
             <li><a href="#">Appointment Scheduling</a></li>
             <li><a href="#">Health Monitoring</a></li>
             <li><a href="#">Prescription Services</a></li>
-            <li><a href="#">Patient Education</a></li>
+            <li><a href="#">Patient Education/ Awareness</a></li>
           </ul>
         </div>
         
